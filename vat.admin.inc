@@ -402,6 +402,8 @@ function _vat_generate_week_list($f_week_year_s = '') {
 	for($i = 1; $i < $count; $i++)
 	{
 		$week = $this_week->getWeekInYear();
+		$year = $this_week->getYear();
+
 		$dd = $this_week->getDay();
 		$mm = $this_week->getMonth();
 		$yy = $this_week->getYear();
